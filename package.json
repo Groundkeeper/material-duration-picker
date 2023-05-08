@@ -45,7 +45,7 @@
     "start": "tsc -w",
     "test": "jest",
     "clean": "rm -rf dist node_modules",
-    "deploy": "npm run clean && npm install && npm run build && npm run test && npm publish"
+    "deploy": "npm run clean && npm ci && npm run build && npm run test && npm publish"
   },
   "files": [
     "dist"
