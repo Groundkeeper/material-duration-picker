@@ -7,6 +7,8 @@ import DefaultLabels from "./defaultLabelsEn.json";
 import {durationToTime, timeToDuration} from "./utils";
 
 export type DurationFieldsContainerProps = {
+  dialogBackgroundColor?: string
+  dialogColor?: string
   views: DurationView[];
   value: number | undefined;
   setValue: Dispatch<number | undefined>

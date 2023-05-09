@@ -51,8 +51,12 @@ export const DurationDialog = ({
       {...props}
     >
       <Toolbar style={{
-        backgroundColor: theme.palette.primary.main,
-        color: theme.palette.primary.contrastText
+        backgroundColor:
+          DurationFieldsContainerProps?.dialogBackgroundColor ||
+          theme.palette.primary.main,
+        color:
+          DurationFieldsContainerProps?.dialogColor ||
+          theme.palette.primary.contrastText,
       }}>
         <Typography variant='h4'>
           {duration && formatDuration(duration)}
@@ -83,4 +87,3 @@ export const DurationDialog = ({
     </Dialog>
   );
 }
-
