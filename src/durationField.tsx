@@ -33,7 +33,7 @@ export const DurationField = ({
 
   return (
     <TextFieldComp
-      type="number"
+      // type="number"
       onChange={({target}) => {
         const num = +target.value
         setValue(!isFinite(num) || target.value === '' ? undefined : num);

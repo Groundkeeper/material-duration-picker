@@ -17,7 +17,7 @@ exports[`durationField can match snapshot 1`] = `
       <input
         aria-invalid="false"
         class="MuiInputBase-input MuiInput-input"
-        type="number"
+        type="text"
         value="30"
       />
     </div>
@@ -42,7 +42,7 @@ exports[`durationField can match snapshot with custom labels 1`] = `
       <input
         aria-invalid="false"
         class="MuiInputBase-input MuiInput-input"
-        type="number"
+        type="text"
         value="30"
       />
     </div>
