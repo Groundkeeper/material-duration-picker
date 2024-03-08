@@ -59,7 +59,7 @@ export const DurationDialog = ({
           theme.palette.primary.contrastText,
       }}>
         <Typography variant='h4'>
-          {duration && formatDuration(duration)}
+          {props.title ? props.title : duration && formatDuration(duration)}
         </Typography>
       </Toolbar>
       <DialogContent>
